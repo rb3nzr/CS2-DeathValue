@@ -1,7 +1,11 @@
-Currently a WIP, will update soon. 
+**Currently a WIP, will update soon.**
 
 To analyze a player's deaths from a demo file currently:
-```pip install numpy, pandas, matplotlib, colorama```
-```pip install --pre awpy```
+```
+pip install numpy, pandas, matplotlib, colorama
+```
 
-python death_value.py -d demofile.dem -p playername --map 
+```
+pip install --pre awpy
+```
+**Run** *python death_value.py -d demofile.dem -p playername --map*
