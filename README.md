@@ -1,3 +1,4 @@
+A respository for experimenting with ways to analyze CS2 demo files for post game analysis.
 **Currently a WIP, will update soon.**
 
 To analyze a player's deaths from a demo file currently:
