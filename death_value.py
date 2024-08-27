@@ -138,8 +138,6 @@ def calc_weight(death_values, alpha=0.7, beta=0.3) -> pd.DataFrame:
     return w_death_values
 
 def export_dv_xlsx(w_death_values, player_name) -> None:
-
-
     with pd.ExcelWriter(f"{player_name}_deaths.xlsx", engine="xlsxwriter") as writer:
         w_death_values.to_excel(writer, index=False, sheet_name="Death Analysis")
         workbook = writer.book 
