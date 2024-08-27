@@ -8,4 +8,4 @@ pip install numpy, pandas, matplotlib, colorama
 ```
 pip install --pre awpy
 ```
-**Run** *python death_value.py -d demofile.dem -p playername --map*
+**Run:** python death_value.py -d demofile.dem -p playername --map
